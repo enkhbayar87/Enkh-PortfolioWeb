@@ -1,0 +1,93 @@
+<!-- neg element deer ajillah bol id-g ashiglah, utility buyu end tendgui duudaj heregleh bol class baidlaar songood ashiglaad yavahd zugeer-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/292f0efb28.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>連絡先</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="/dist/img/logo.png" alt="My Portfolio" id="logo">
+                <ul><a href="index.html">開始</a></ul>
+                <ul><a href="about.html">私のついて</a></ul>
+                <ul><a href="work.html">履歴</a></ul>
+                <ul><a href="contact.html"  class="current">お問い合わせ</a></ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Section A: Contact form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">連絡先</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">これで連絡してください。</p>
+        <form method="POST" data-netlify="true"  data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input type="text" class="text-input name-input" placeholder="名前" name="name">
+            <input type="text" class="text-input subject-input" placeholder="タイトル"
+            name="subject">
+            <input type="email" class="text-input email-input" placeholder="メールアドレス" name="email">
+            <input type="text" class="text-input phone-input" placeholder="電話番号" name="phone">
+            <textarea class="text-input message-input" placeholder="伝いたい気持を言ってね。。。" name="message"></textarea>
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <div class="my-2">
+            <button type="submit" class="btn-dark">送信</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- section B: contact info -->
+    <section id="contact-b" class="bg-dark py-3">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>メールアドレス</h3>
+            <p>mr.enkhbayar@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>電話番号</h3>
+            <p>080-3680-0988</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>住所</h3>
+            <p>mr.enkhbayar@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section C -->
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1>新しい案件を開始しましょう</h1>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>&copy Copyright, 2019. All rights reserved</p>
+            <div class="social">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
